@@ -13,11 +13,38 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "brand_information_xNjyJw": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "link_list_xXqb3z": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Onlineshop",
+            "menu": "onlineshop"
+          }
+        },
+        "link_list_Qm6UFw": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Gut zu wissen",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_xNjyJw",
+        "link_list_xXqb3z",
+        "link_list_Qm6UFw"
+      ],
       "settings": {
         "color_scheme": "scheme-2",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "newsletter_enable": false,
+        "newsletter_heading": "Jetzt anmelden und informiert bleiben!",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
