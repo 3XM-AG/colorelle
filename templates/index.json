@@ -84,10 +84,112 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_zMKbJA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QdjCbB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/switzerland.png",
+            "title": "Exklusive Schweizer Designs",
+            "text": "<p>In der Schweiz entworfen und exklusiv bei Colorelle erhältlich. Zeitlose Schweizer Motive für ein stilvolles Ergebnis.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ntVBwx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/watercolor.png",
+            "title": "Komplettes Set",
+            "text": "<p>Du erhältst ein komplettes Malen nach Zahlen Set mit allem, was du zum Starten brauchst. Einfach auspacken und direkt loslegen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kDz8M9": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QdjCbB",
+        "column_ntVBwx",
+        "column_kDz8M9"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Colorelle: Art Made Simple",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_gabFjL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8XQ96y": {
+          "type": "column",
+          "settings": {
+            "title": "Malen nach Zahlen für Erwachsene mit Schweizer Design",
+            "text": "<p><a href=\"/collections/malen-nach-zahlen\" title=\"Malen nach Zahlen\">Malen nach Zahlen für Erwachsene</a> ist ein kreatives Hobby, das immer mehr Menschen begeistert. Colorelle hebt sich durch exklusive Schweizer Motive und hochwertig zusammengestellte Sets ab, die speziell für Erwachsene entwickelt wurden. Für alle mit ewtas weniger Zeit bieten wir zudem <a href=\"/collections/mini-malen-nach-zahlen\" title=\"Mini Malen nach Zahlen\">Mini Malen nach Zahlen Sets</a> an – perfekt für kurze, kreative Auszeiten.</p><h3>Entspannung und Stressabbau</h3><p>Das Ausfüllen der nummerierten Felder ist meditativ und schenkt dir Momente der Ruhe im Alltag. Malen nach Zahlen für Erwachsene hilft, Stress abzubauen und sich voll und ganz auf den Moment zu konzentrieren.</p><h3>Kreativität neu entdecken</h3><p>Unsere Schweizer Designs machen Malen nach Zahlen für Erwachsene zu einem inspirierenden Erlebnis. Auch ohne Vorkenntnisse kannst du deine kreative Seite entfalten und Schritt für Schritt ein Kunstwerk erschaffen, das stolz an deiner Wand hängen darf.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TfQwz8": {
+          "type": "column",
+          "settings": {
+            "title": "Lernen und Konzentration fördern",
+            "text": "<p>Malen nach Zahlen für Erwachsene ist mehr als nur ein Hobby: Es schult die Aufmerksamkeit fürs Detail, fördert die Konzentration und ist gleichzeitig eine spielerische Art, Farben, Komposition und Technik besser zu verstehen.</p><h3>Gemeinsame Kreativmomente</h3><p>Ob alleine oder zusammen mit Freunden und Familie – Malen nach Zahlen ist eine kreative Aktivität, die verbindet. Unsere Sets sind komplett ausgestattet, sodass du sofort loslegen kannst.</p><h3>Ein Kunstwerk mit bleibendem Wert</h3><p>Am Ende hältst du nicht nur ein Bild in den Händen, sondern ein Kunstwerk, das dein Zuhause verschönert oder als Geschenk Freude bereitet. Damit du dich ganz auf die Freude am Malen konzentrieren kannst, sind unsere Leinwände bereits auf hochwertige Holzrahmen gespannt. Dein Kunstwerk ist fertig zum Aufhängen, sobald du den letzten Pinselstrich gesetzt hast.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8XQ96y",
+        "column_TfQwz8"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Schaltflächenbeschriftung",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "multicolumn_zMKbJA",
+    "multicolumn_gabFjL"
   ]
 }
