@@ -45,17 +45,16 @@
       ],
       "settings": {
         "image": "shopify://shop_images/colorelle-banner-social-media.jpg",
-        "image_2": "shopify://shop_images/colorelle-banner-mobile_df219dcb-fc03-4438-9de1-f7bb56a16994.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-4",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "featured_collection": {
