@@ -38,10 +38,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -74,7 +70,6 @@
         "judge_me_reviews_preview_badge_xJtfEE",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "collapsible_tab_7QkUKa",
         "collapsible_tab_jwpxbV"
