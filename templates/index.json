@@ -62,7 +62,7 @@
       "settings": {
         "collection": "all",
         "products_to_show": 8,
-        "title": "Featured products",
+        "title": "Bestseller",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -85,10 +85,70 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_zMKbJA": {
+    "rich_text_FHjeiK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_H6zhNx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Malen nach Zahlen für Erwachsene",
+            "heading_size": "h2"
+          }
+        },
+        "text_Kita4q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hochwertige Malen nach Zahlen Sets für Erwachsene. Exklusive Motive aus der Schweiz, direkt zu dir nach Hause. Alle Malen nach Zahlen Sets sind komplett ausgestattet mit Farben, Pinseln und Leinwand.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_H6zhNx",
+        "text_Kita4q"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_NiTFAR": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "mini-malen-nach-zahlen",
+        "products_to_show": 8,
+        "title": "Mini Malen nach Zahlen",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_3ebyVB": {
       "type": "multicolumn",
       "blocks": {
-        "column_QdjCbB": {
+        "column_mj7AA9": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/switzerland.png",
@@ -98,7 +158,7 @@
             "link": ""
           }
         },
-        "column_ntVBwx": {
+        "column_9b3wBp": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/watercolor.png",
@@ -108,7 +168,7 @@
             "link": ""
           }
         },
-        "column_kDz8M9": {
+        "column_LBenFJ": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/art.png",
@@ -118,17 +178,17 @@
             "link": ""
           }
         },
-        "column_4pNpTb": {
+        "column_8BajPK": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/paint-brush.png",
-            "title": "Hochwertige Farbe & Pinsel",
+            "title": "&nbsp;Hochwertige Farbe & Pinsel&nbsp;",
             "text": "<p>Unsere Farben überzeugen mit schönen, lebendigen Farbtönen und hoher Deckkraft. Mit den passenden Pinseln gelingt dir jeder Pinselstrich mühelos.</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_FKEUYM": {
+        "column_tt9kKJ": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/express-delivery.png",
@@ -138,7 +198,7 @@
             "link": ""
           }
         },
-        "column_4VAYEX": {
+        "column_VVEE9r": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/gift.png",
@@ -150,12 +210,12 @@
         }
       },
       "block_order": [
-        "column_QdjCbB",
-        "column_ntVBwx",
-        "column_kDz8M9",
-        "column_4pNpTb",
-        "column_FKEUYM",
-        "column_4VAYEX"
+        "column_mj7AA9",
+        "column_9b3wBp",
+        "column_LBenFJ",
+        "column_8BajPK",
+        "column_tt9kKJ",
+        "column_VVEE9r"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -170,7 +230,7 @@
         "background_style": "none",
         "color_scheme": "scheme-5",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -207,7 +267,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Schaltflächenbeschriftung",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 2,
         "column_alignment": "left",
@@ -223,7 +283,9 @@
   "order": [
     "image_banner",
     "featured_collection",
-    "multicolumn_zMKbJA",
+    "rich_text_FHjeiK",
+    "featured_collection_NiTFAR",
+    "multicolumn_3ebyVB",
     "multicolumn_gabFjL"
   ]
 }
