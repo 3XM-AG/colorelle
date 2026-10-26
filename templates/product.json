@@ -45,14 +45,22 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "share": {
-          "type": "share",
+        "collapsible_tab_7QkUKa": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Beschreibung",
+            "icon": "none",
+            "content": "{{ block.settings.page.content }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_jwpxbV": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Lieferung und Versand",
+            "icon": "truck",
+            "content": "<p>Kostenloser Versand mit PostPac Priority ab Schweizer Lager.</p><p>Die Lieferung erfolgt innerhalb von 1-2 Werktagen.</p>",
+            "page": ""
           }
         }
       },
@@ -63,8 +71,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "collapsible_tab_7QkUKa",
+        "collapsible_tab_jwpxbV"
       ],
       "settings": {
         "enable_sticky_info": true,
