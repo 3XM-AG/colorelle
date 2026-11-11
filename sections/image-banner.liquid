@@ -2,6 +2,10 @@
 
 {%- style -%}
   {{ settings.type_banner_font | font_face: font_display: 'swap' }}
+
+  --font-banner-family: {{ settings.type_banner_font.family }}, {{ settings.type_banner_font.fallback_families }};
+  --font-banner-style: {{ settings.type_banner_font.style }};
+  --font-banner-weight: {{ settings.type_banner_font.weight }};
 {%- endstyle -%}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
