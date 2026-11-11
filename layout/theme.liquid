@@ -133,8 +133,13 @@
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
 
+        --font-banner-family: {{ settings.type_banner_font.family }}, {{ settings.type_banner_font.fallback_families }};
+        --font-banner-style: {{ settings.type_banner_font.style }};
+        --font-banner-weight: {{ settings.type_banner_font.weight }};
+
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
+        --font-banner-scale: {{ settings.banner_scale | times: 1.0 | divided_by: settings.body_scale }};
 
         --media-padding: {{ settings.media_padding }}px;
         --media-border-opacity: {{ settings.media_border_opacity | divided_by: 100.0 }};
