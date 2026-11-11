@@ -355,6 +355,8 @@
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
 
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
+
     <script>
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
@@ -408,6 +410,5 @@
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {{ 'custom.css' | asset_url | stylesheet_tag }}
   </body>
 </html>
