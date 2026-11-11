@@ -126,6 +126,26 @@
       },
       {
         "type": "header",
+        "content": "Image banner"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_banner_font",
+        "default": "assistant_n4",
+        "label": "t:settings_schema.typography.settings.type_header_font.label"
+      },
+      {
+        "type": "range",
+        "id": "banner_scale",
+        "min": 100,
+        "max": 150,
+        "step": 5,
+        "unit": "%",
+        "label": "t:settings_schema.typography.settings.heading_scale.label",
+        "default": 100
+      },
+      {
+        "type": "header",
         "content": "t:settings_schema.typography.settings.header__2.content"
       },
       {

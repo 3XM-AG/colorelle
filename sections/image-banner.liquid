@@ -1,5 +1,9 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
+{%- style -%}
+  {{ settings.type_banner_font | font_face: font_display: 'swap' }}
+{%- endstyle -%}
+
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {
