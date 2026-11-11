@@ -1,4 +1,6 @@
-/* base.css */
+/*
+/* base.css
+*/
 h1.banner__heading,
 h2.banner__heading,
 h3.banner__heading,
@@ -19,7 +21,23 @@ h5.banner__heading,
   word-break: break-word;
 }
 
-/* section-image-banner.css */
+/* Open Dropdown on Hover */
+@media screen and min-width: 990px {
+  header-menu details:hover > .header__submenu {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  header-menu details:hover > summary {
+    aria-expanded: "true";
+  }
+}
+
+/*
+/* section-image-banner.css
+*/
 .banner__box {
   border-radius: 5px;
   box-shadow: 0 20px 45px -4px #00000030;
@@ -37,7 +55,9 @@ h5.banner__heading,
   }
 }
 
-/* section-multicolumn.css */
+/*
+/* section-multicolumn.css
+*/
 .multicolumn-card__image-wrapper--fourth-width {
   width: 25%;
 }
@@ -45,7 +65,9 @@ h5.banner__heading,
   text-align: center;
 }
 
-/* template-collection.css */
+/*
+/* template-collection.css
+*/
 .collection__title {
   text-align: center;
 }
